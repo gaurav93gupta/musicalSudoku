@@ -172,7 +172,7 @@ function solve() {
     console.log("[*] Attempting a solve");
     setButtons(true, false, true, true, true, true);
     setStatus("Solution PROCESSING... ");
-    repeater = setInterval(doCycle, 250);
+    repeater = setInterval(doCycle, 1);
 }
 
 function stop(isComplete) {
